@@ -136,43 +136,11 @@ body {
       color:black;
       text-align: center;
     }
-  }
-  .es-benefits {
-    background-color: #efefed;
-    margin-top: 80px;
-    padding: 20px 0 20px 10px;
-    &__bg {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      min-height: 586px;
-    }
-    &__content {
-      width: 100%;
-      padding: auto auto;
-      text-align: left;
-      vertical-align: middle;
-    }
     &__image {
-      margin: auto 70px; 
-    }
-    &__text {
-      font-size: 30px; 
-      font-weight: 200;
-      margin: auto 70px; 
-      max-width: 444px;
-      color: black;
-      text-align: left;
-    }
-    &__right {
-      width: 100%;
-    }
-    &__rightImage {
       @include img;
-      margin-right: 0;
-      margin-left: auto;
     }
   }
+
   .es-metale {
     margin-top: 80px;
     &__title {
@@ -309,13 +277,6 @@ body {
       line-height: 1;
       font-weight: 300;
     }
-    &__footer {
-      font-size: 13px;
-      font-weight: 300;
-      padding: 0 20%;
-      color:black;
-      text-align: center;
-    }
   }
 
 }
@@ -330,17 +291,6 @@ body {
     }
     &__content {
       width: 48% !important;
-    }
-  }
-  .es-benefits {
-    &__wrapper {
-      flex-wrap: nowrap !important;
-    }
-    &__right {
-      width: 50% !important;
-    }
-    &__content {
-      width: 50% !important;
     }
   }
 }
